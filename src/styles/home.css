@@ -1,0 +1,96 @@
+/* Estilos para el contenedor de la cabecera */
+/* Estilos para el contenedor de la cabecera */
+.header {
+    background-color: #f3c64a; /* Color de fondo diferente al fondo de la página */
+    padding: 20px; /* Reduce el padding para un header más pequeño */
+    text-align: center;
+    border-bottom: 1px solid #dee2e6; /* Borde más delgado para un efecto sutil */
+  }
+  
+  /* Estilos para la imagen en la cabecera */
+.task-image {
+    width: 150px; /* Reduce el tamaño de la imagen */
+    border-radius: 8px; /* Ajusta el radio del borde si es necesario */
+  }
+  
+
+/* Estilos para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+img {
+    border-radius: 10px;
+}
+
+/* Estilos para la lista de tareas */
+.todolist {
+    margin-top: 20px;
+}
+
+/* Estilos para los ítems de la lista */
+.todolist li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para el botón de editar */
+.edit-button {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón de eliminar */
+.delete-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el formulario de edición */
+.edit-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Estilos para el botón guardar en el formulario de edición */
+.save-button {
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el botón cancelar en el formulario de edición */
+.cancel-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
